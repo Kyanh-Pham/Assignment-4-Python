@@ -21,7 +21,7 @@ def main():
         if integer_1 and integer_2 and integer_3 >= 0:
             if integer_1 and integer_2 and integer_3 <= 100:
                 add_int = integer_1 + integer_2 + integer_3
-                add_int = add_int/3
+                add_int = add_int / 3
                 print(
                     "The average of {0}, {1}, and {2}, is {3:,.3F}".format(
                         integer_1, integer_2, integer_3, add_int
